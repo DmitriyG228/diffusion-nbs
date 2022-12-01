@@ -1,0 +1,57 @@
+name: diff
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - ipykernel
+  - ipywidgets
+  - jupyterlab_widgets
+  - python<3.10
+  - pip
+  - tqdm
+  - psycopg2
+  - SQLAlchemy
+  - pandas
+  - Pillow
+  - voila
+  - fastapi
+  - uvicorn
+  - pip:
+    - --find-links https://download.pytorch.org/whl/torch_stable.html
+    - torch==1.10.1+cu113
+    - torchvision==0.11.2+cu113
+    - transformers
+    - scrapy
+    - tendo
+    - dateparser
+    - transformers
+    - matplotlib
+    - Shapely
+    - geopandas
+    - geopandas-postgis
+    - voila
+    - voila-gridstack
+    - autofaiss
+    - plotly
+    - ftfy
+    - schedule
+    - psutil
+    - docker
+    - pymilvus
+    - wrapt
+    - nbdev
+    - qdrant_client
+    - dash
+    - dash_bootstrap_components
+    - dash-dangerously-set-inner-html
+    - diffusers
+    - py3nvml
+    - scipy
+    - accelerate
+    - fastai
+    - huggingface-hub
+    - fastcore
+    - opencv-python
+    
+    
